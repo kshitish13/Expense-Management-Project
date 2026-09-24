@@ -275,7 +275,7 @@ variables.
 Create a `.env` file in the project root:
 
 ``` env
-MYSQL_PASSWORD=your_mysql_password
+YOURPASSWORD=your_mysql_password
 ```
 
 The application uses:
@@ -285,9 +285,6 @@ Host: localhost
 User: root
 Database: expense_manager
 ```
-
-The `.env` file is excluded from Git using `.gitignore` and should
-**never be committed to GitHub**.
 
 ## Installation
 
@@ -325,8 +322,6 @@ pip install -r requirements.txt
 3.  Execute the SQL script in MySQL.
 4.  Confirm that the `expense_manager` database and required tables have
     been created.
-5.  Create the `.env` file in the project root and add your MySQL
-    password.
 
 ## Running the Application
 
