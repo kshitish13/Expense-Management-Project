@@ -291,8 +291,8 @@ Database: expense_manager
 ### 1. Clone the Repository
 
 ``` bash
-git clone https://github.com/kshitish13/Expense-Management-Project
-cd Expense-Management-Project
+git clone https://github.com/kshitish13/Expense-Tracking-System
+cd Expense-Tracking-System
 ```
 
 ### 2. Create a Virtual Environment
@@ -499,10 +499,4 @@ Possible improvements include:
 -   Expand frontend and API test coverage
 -   Add deployment configuration
 
-## Author
 
-**Kshitish Nayak**
-
-Built as a Python full-stack project to practice backend API
-development, database integration, frontend development, analytics, and
-testing.
