@@ -57,3 +57,12 @@ def get_analytics(date_range : DateRange):
             "percentage" : percentage
         }
     return breakdown
+
+
+@app.get("/{month_name}/{year}/summary")
+def monthly_expenses_analytics(month_name : str,year : int):
+    data=db_helper.fetch_summary_for_month(month_name,year)
+    if data is None:
+        raise HTTPException(status_code=500, detail="Failed to retrieve expense summary from the database.")
+    return data
+
